@@ -1,1 +1,0 @@
-alert("Le bouton marche !");
