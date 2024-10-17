@@ -1,4 +1,4 @@
-button, .button{/*--------------------Bouton--------------------*/
+button, .button{/*--------------------Attribue Bouton--------------------*/
   border: 0;
   color: white;
   font-family: sans-serif;
@@ -22,27 +22,80 @@ button, .button{/*--------------------Bouton--------------------*/
 
 /*--------------------Lorsqu'on passe avec la souris--------------------*/
 .button.red:hover{
-background-color: rgb(255, 106, 106);
-}
+  background-color: rgb(255, 100, 100);}
 .button.blue:hover{
-background-color: rgb(80, 80, 255);
-}
+  background-color: rgb(100, 100, 255);}
+.button.dark_green:hover{
+  background-color: rgb(80, 128, 80);}
+.button.yellow:hover{
+  background-color: rgb(255, 255, 0);}
+.button.gray:hover{
+  background-color: rgba(128, 128, 128);}
+.button.green:hover{
+  background-color: rgba(120, 255, 120);}
+.button.white:hover{
+  background-color: rgb(245, 245, 245);}
+.button.aqua:hover{
+  background-color: rgb(130, 255, 255);}
+.button.purple:hover{
+  background-color: rgb(255, 110, 255);}
+.button.black:hover{
+  background-color: rgba(0, 0, 0, 0.8);}
 
 /*--------------------Clique--------------------*/
 .button.red:active{    
 box-shadow:
-    inset -3px -3px 5px rgb(255, 138, 60, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
+  inset -3px -3px 5px rgb(255, 50, 50, 0.6),
+  inset 2px 2px 3px rgba(0, 0, 0, 0.6);}
 .button.blue:active{    
 box-shadow:
-    inset -3px -3px 5px rgb(30, 154, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}                  
+  inset -3px -3px 5px rgb(50, 150, 255, 0.6),
+  inset 2px 2px 3px rgba(0, 0, 0, 0.6);} 
+.button.dark_green:active{    
+box-shadow:
+  inset -3px -3px 5px rgb(50, 128, 50, 0.6),
+  inset 2px 2px 3px rgba(0, 0, 0, 0.6);}    
+.button.yellow:active{    
+box-shadow:
+  inset -3px -3px 5px rgb(255, 255, 128),
+  inset 2px 2px 3px rgba(0, 0, 0, 0.6);}     
+.button.gray:active{    
+box-shadow:
+  inset -3px -3px 5px rgb(200, 200, 200),
+  inset 2px 2px 3px rgba(0, 0, 0, 0.6);}   
+.button.green:active{    
+  box-shadow:
+    inset -3px -3px 5px rgba(0, 255, 0, 0.5),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);}
+.button.white:active{    
+  box-shadow:
+    inset -3px -3px 5px rgba(201, 201, 201),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);}
+.button.aqua:active{    
+  box-shadow:
+    inset -3px -3px 5px rgba(0, 255, 255, 0.5),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);}
+.button.purple:active{    
+  box-shadow:
+    inset -3px -3px 5px rgba(255, 0, 255, 0.5),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);}
+.button.black:active{    
+  box-shadow:
+    inset -3px -3px 5px rgb(34, 34, 34),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);}  
 
 /*--------------------Couleurs--------------------*/
+.gray{          background-color: #808080;}
 .blue{          background-color: rgb(0, 0, 255);}
-.aigue-marine{  background-color: rgb(121, 248, 248);}
+.red{           background-color: red;}
+.green{         background-color: rgb(0,255,0);}
+.dark_green{    background-color: green;}
+.yellow{        background-color: yellow;}  
+.white{         background-color: #fff;}
+.aqua{          background-color: aqua;}
+.purple{        background-color: #ff00ff;}
+.black{         background-color: #000;}
+/* .aigue-marine{  background-color: rgb(121, 248, 248);}
 .azur{          background-color: rgb(0, 127, 255);}
 .azur-clair{    background-color: rgb(116, 208, 241);}
 .azurin{        background-color: rgb(169, 234, 254);}
@@ -59,45 +112,69 @@ box-shadow:
 .bleu-berlin{   background-color: rgb(36, 68, 92);}
 .bleu-france{   background-color: rgb(49, 140, 231);}
 .bleu-minuit{   background-color: rgb(0, 51, 102);}
-.bleu-prusse{   background-color: rgb(36, 68, 92);}
+.bleu-prusse{   background-color: rgb(36, 68, 92);} */
 /* https://www.toutes-les-couleurs.com/code-couleur-rvb.php */
 
-.red{           background-color: red;}
-.green{         background-color: green;}
-.yellow{        background-color: yellow;}                   
+
+/*-------------------------Image en %-----------------------*/
+.img_5{width: 5%; height: auto;}
+.img_10{width: 10%; height: auto;}
+.img_15{width: 15%; height: auto;}
+.img_20{width: 20%; height: auto;}
+.img_25{width: 25%; height: auto;}
+.img_30{width: 30%; height: auto;}
+.img_35{width: 35%; height: auto;}
+.img_40{width: 40%; height: auto;}
+.img_45{width: 45%; height: auto;}
+.img_50{width: 50%; height: auto;}
+.img_55{width: 55%; height: auto;}
+.img_60{width: 60%; height: auto;}
+.img_65{width: 65%; height: auto;}
+.img_70{width: 70%; height: auto;}
+.img_75{width: 75%; height: auto;}
+.img_80{width: 80%; height: auto;}
+.img_85{width: 85%; height: auto;}
+.img_90{width: 90%; height: auto;}
+.img_95{width: 95%; height: auto;}
+.img_100{width: 100%; height: auto;}
+
+/*--------------------------Lien-------------------------*/
+a.no_deco{text-decoration: none;}
 
 
+/*--------------------------Couleur lien-------------------------*/
+a.link_gray{          color: #808080;}
+a.link_blue{          color: rgb(0, 0, 255);}
+a.link_red{           color: red;}
+a.link_green{         color: rgb(0,255,0);}
+a.link_dark_green{    color: green;}
+a.link_yellow{        color: yellow;}  
+a.link_white{         color: #fff;}
+a.link_aqua{          color: aqua;}
+a.link_purple{        color: #ff00ff;}
+a.link_black{         color: #000;}
 
+/*--------------------------Taille lien-------------------------*/
+a.xx-small{font-size: xx-small;}
+a.x-small{font-size: x-small;}
+a.smaller{font-size: smaller;}
+a.small{font-size: small;}
+a.medium{font-size: medium;}
+a.large{font-size: large;}
+a.x-large{font-size: x-large;}
+a.xx-large{font-size: xx-large;}
+a.link_size_10{font-size: 10px;}
+a.link_size_15{font-size: 15px;}
+a.link_size_20{font-size: 20px;}
+a.link_size_25{font-size: 25px;}
+a.link_size_30{font-size: 30px;}
+a.link_size_35{font-size: 35px;}
+a.link_size_40{font-size: 40px;}
+a.link_size_45{font-size: 45px;}
+a.link_size_50{font-size: 50px;}
+a.link_size_100{font-size: 100px;}
+a.link_size_150{font-size: 150px;}
+a.link_size_200{font-size: 200px;}
+a.link_size_250{font-size: 250px;}
+a.link_size_300{font-size: 300px;}
 
-/*--------------------MDN--------------------*/
-.styled {
-    border: 0;
-    line-height: 2;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
-    background-image: linear-gradient(
-      to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0)
-    );
-    box-shadow:
-      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  }
-  
-  .styled:hover {
-    background-color: rgba(255, 0, 0, 1);
-  }
-  
-  .styled:active {
-    box-shadow:
-      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-  }
-  
